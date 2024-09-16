@@ -1,17 +1,21 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+//Step 4: Make changes in your feature branch, commit and push them.
+//
+//        Step 5: Switch back to the main branch (e.g. 'main' or 'master') and make new changes, commit and push them.
+//
+//Step 6: Locally merge the changes from the main branch into your feature branch.
+//
+//Step 7: Resolve any conflicts during the merge.
+//
+//Step 8: Push your feature branch to GitHub.
+//
+//Step 9: Create a pull request for your feature branch and have your colleagues review it.
+//
+//        Step 10: After approval, perform the merge and delete the feature branch.//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println("This is the feature branch, we are commiting and pushing");
     }
 }
